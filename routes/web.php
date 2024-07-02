@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [PageController::class,"home"])->name("home");
 // -------rotta------------------------metodo--------nome rotta
+Route::get('/staff', [PageController::class,"staff"])->name("staff");
