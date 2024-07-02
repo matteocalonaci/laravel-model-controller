@@ -1,7 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<h1>Dati da "config/data.php": {{ $home }}</h1>
-<p>This is my paragraph content.</p>
-<button class="btn btn-primary">Cliccami</button>
+<h1 class="text-info">Ospiti</h1>
+@foreach($guests as $guest)
+<li class="p-1">Nome ospite: {{$guest->Nome}}  {{$guest->Cognome}}</li>
+@endforeach
+
 @endsection
