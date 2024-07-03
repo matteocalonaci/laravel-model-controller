@@ -42,3 +42,7 @@ Questo git-template fornisce lo scaffold di una web application realizzata con L
 	npm run dev
 	```
 - Puntare il browser all'indirizzo mostrato in terminale per controllare che tutto funzioni.
+
+
+
+Ho usato un Database che ho creato io e non quello fornito.
